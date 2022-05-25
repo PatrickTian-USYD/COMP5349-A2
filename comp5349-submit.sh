@@ -2,5 +2,5 @@ spark-submit \
     --master yarn\
     --deploy-mode client \
     --num-executors 3 \
-    comp5349-assignment2.py \
+    Comp5349-A2.py \
     --output $1
