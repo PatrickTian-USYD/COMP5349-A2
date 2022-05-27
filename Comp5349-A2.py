@@ -102,7 +102,7 @@ def ins_filtering(contract):
 spark = SparkSession \
     .builder \
     .appName("COMP5349 A2 ") \
-    .config("spark.sql.shuffle.partitions", 5)\
+    .config("spark.sql.shuffle.partitions", 4)\
     .config("spark.executor.cores", '4')\
     .config("spark.executor.memory", '1g')\
     .getOrCreate()
